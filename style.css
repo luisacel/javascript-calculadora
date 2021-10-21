@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&family=Rampart+One&display=swap');
+
+
+.bg-color-purple{
+    background: #620096;
+}
+.bg-color-purple-clear{
+    background: #af69cd;
+}
+.bg-color-pink{
+    background: #af7ead;
+}
+.bg-color-pink-clear{
+    background: #d0a3cf;
+}
+.bg-color-blue-dark{
+    background: #2832C2;
+}
+.bg-color-blue{
+    background: #5b77cc;
+}
+.bg-color-blue-ice{
+    background:  #9DCFDD;
+}
+.bg-color-blue-clear{
+    background: #92C5FC;
+}
+
+/*font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Rampart One', cursive;*/
+
+.parallax {
+    background: url("https://thumbs.dreamstime.com/b/fondo-con-n%C3%BAmeros-5186116.jpg");
+    height: 85vh;
+    background-attachment: fixed;
+    background-position: 100% 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+section#inicio h1,
+section#inicio p {
+    color: white;
+}
+
+section#inicio h1 {
+    font-family: 'Rampart One', cursive;
+    text-align: center;
+    font-size: 72px;
+    color: #620096;
+}
+
+section#inicio p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: #000000;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+form div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section#Calculadora form#Cal {
+    background-color: #af69cd;
+    width: 557px;
+    margin-left: 470PX;
+    padding-top: 30px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    margin-top: 45px;
+    box-shadow: 3.5px 3.5px 0px 3.5px #6e6d6d;
+}
+
+section#Calculadora form#Cal input#resultado {
+    width: 338px;
+    height: 80px;
+    margin-left: 17px;
+    border-radius: 10px;
+}
+
+section#Calculadora form#Cal {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 419px;
+}
+
+section#Calculadora form#Cal div button {
+    width: 86px;
+    height: 76px;
+    background-color: #af69cd;
+    border-color: #d0a3cf;
+}
+
+section#Calculadora form#Cal div button:hover{
+    color: #fff;
+    border-color: #620096;
+}
+
+section#Calculadora {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+section#Calculadora form#Cal div.container {
+    padding-top: 30px;
+}
